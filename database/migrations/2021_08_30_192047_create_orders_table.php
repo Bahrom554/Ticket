@@ -19,7 +19,7 @@ class CreateOrdersTable extends Migration
             $table->string('name');
             $table->string('phone');
             $table->string('status');
-            $table->foreign('ticket_id')->references('id')->on('tickets');
+            $table->foreign('ticket_id')->references('id')->on('tickets')->onDelete('cascade');
             $table->timestamps();
         });
     }

@@ -49,7 +49,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="price">Narxi</label>
-                                        <input type="text" class="form-control" id="price" name="price" placeholder="price" >
+                                        <input type="text" class="form-control" id="price" name="price" placeholder="price" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="date">Uchish kuni</label>
